@@ -1,0 +1,38 @@
+.superInput {
+
+}
+
+.errorInput {
+    border: 2px solid red;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.finalInputClassName {
+    border: 2px solid green;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 20px;
+}
+
+
+body {
+    background-color: #efefef;
+    padding: 70px;
+    font-family: "Open Sans", "Arial", snas-serif;
+}
+
+

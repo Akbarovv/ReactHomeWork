@@ -1,0 +1,13 @@
+.default {
+margin-top: 40px;
+}
+
+.red {
+    background: cadetblue;
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 10px;
+
+}
