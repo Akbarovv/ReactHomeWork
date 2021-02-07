@@ -10,12 +10,12 @@ export type UserType = {
 
 // уровень работы с глобальными данными
 function HW3() {
-    let [users, setUsers] = useState <Array<UserType>>([
-        {_id: v1(), name: "asa" }
+    let [users, setUsers] = useState<Array<UserType>>([
+        {_id: v1(), name: "asa"}
     ]); // need to fix any
 
     const addUserCallback = (name: string) => { // need to fix any
-        let newUser: UserType = { _id: v1(), name:"Must have"}
+        let newUser: UserType = {_id: v1(), name: "Must have"}
         setUsers([newUser, ...users]); // need to fix
     }
 
@@ -26,11 +26,6 @@ function HW3() {
 
             {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeGreeting/>*/}
-            <hr/>
         </div>
     );
 }

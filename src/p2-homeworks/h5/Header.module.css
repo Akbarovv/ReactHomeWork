@@ -1,0 +1,25 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+
+}
+/* Links inside the navbar */
+:any-link {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+a:-webkit-any-link:hover {
+background-color: red;
+}
+
+
+
+
