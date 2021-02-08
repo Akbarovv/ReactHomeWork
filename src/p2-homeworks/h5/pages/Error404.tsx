@@ -1,11 +1,9 @@
 import React from "react";
-
+import e from "./Eror.module.css"
 function Error404() {
     return (
-        <div>
-            <div>404</div>
-            <div>Page not found!</div>
-            <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+        <div className={e.hit_the_floor}>
+           404
         </div>
     );
 }

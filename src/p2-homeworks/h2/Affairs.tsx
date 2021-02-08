@@ -2,6 +2,7 @@ import React from "react";
 import Affair from "./Affair";
 import {AffairType, FilterType} from "./HW2";
 
+
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
     setFilter: (f: FilterType) => void
@@ -30,9 +31,7 @@ props.setFilter("all")
 
     return (
         <div>
-
             {mappedAffairs}
-
             <button onClick={setAll}>All</button>
             <button onClick={setHigh}>High</button>
             <button onClick={setMiddle}>Middle</button>
