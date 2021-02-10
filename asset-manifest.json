@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactHomeWork/static/css/main.b19833c1.chunk.css",
-    "main.js": "/ReactHomeWork/static/js/main.c3965994.chunk.js",
-    "main.js.map": "/ReactHomeWork/static/js/main.c3965994.chunk.js.map",
+    "main.css": "/ReactHomeWork/static/css/main.0650c37b.chunk.css",
+    "main.js": "/ReactHomeWork/static/js/main.636caaca.chunk.js",
+    "main.js.map": "/ReactHomeWork/static/js/main.636caaca.chunk.js.map",
     "runtime-main.js": "/ReactHomeWork/static/js/runtime-main.7e964a18.js",
     "runtime-main.js.map": "/ReactHomeWork/static/js/runtime-main.7e964a18.js.map",
-    "static/js/2.00319242.chunk.js": "/ReactHomeWork/static/js/2.00319242.chunk.js",
-    "static/js/2.00319242.chunk.js.map": "/ReactHomeWork/static/js/2.00319242.chunk.js.map",
+    "static/js/2.05c93cf3.chunk.js": "/ReactHomeWork/static/js/2.05c93cf3.chunk.js",
+    "static/js/2.05c93cf3.chunk.js.map": "/ReactHomeWork/static/js/2.05c93cf3.chunk.js.map",
     "index.html": "/ReactHomeWork/index.html",
-    "precache-manifest.971fa05e73d74123380f72a111cd15ca.js": "/ReactHomeWork/precache-manifest.971fa05e73d74123380f72a111cd15ca.js",
+    "precache-manifest.c9533c2a7a8d5e455bd4a4d209f7df25.js": "/ReactHomeWork/precache-manifest.c9533c2a7a8d5e455bd4a4d209f7df25.js",
     "service-worker.js": "/ReactHomeWork/service-worker.js",
-    "static/css/main.b19833c1.chunk.css.map": "/ReactHomeWork/static/css/main.b19833c1.chunk.css.map",
-    "static/js/2.00319242.chunk.js.LICENSE.txt": "/ReactHomeWork/static/js/2.00319242.chunk.js.LICENSE.txt"
+    "static/css/main.0650c37b.chunk.css.map": "/ReactHomeWork/static/css/main.0650c37b.chunk.css.map",
+    "static/js/2.05c93cf3.chunk.js.LICENSE.txt": "/ReactHomeWork/static/js/2.05c93cf3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7e964a18.js",
-    "static/js/2.00319242.chunk.js",
-    "static/css/main.b19833c1.chunk.css",
-    "static/js/main.c3965994.chunk.js"
+    "static/js/2.05c93cf3.chunk.js",
+    "static/css/main.0650c37b.chunk.css",
+    "static/js/main.636caaca.chunk.js"
   ]
 }
