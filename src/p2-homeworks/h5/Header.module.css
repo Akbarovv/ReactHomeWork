@@ -4,6 +4,7 @@
     font-family: Arial;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 :any-link {
@@ -15,13 +16,10 @@
     text-decoration: none;
 }
 
-:any-link:link {
+.light {
     color: red;
 }
 
-a:-webkit-any-link:hover {
-    background-color: red;
-}
 
 
 

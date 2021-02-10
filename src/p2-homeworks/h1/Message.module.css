@@ -1,3 +1,7 @@
 .message {
 position: center;
 }
+.body {
+    display: grid;
+    justify-content: center;
+}

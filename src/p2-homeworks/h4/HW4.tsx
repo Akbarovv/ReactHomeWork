@@ -21,7 +21,7 @@ function HW4() {
     }
 
     return (
-        <div>
+        <div className={s.body}>
             <hr/>
             homeworks 4
 

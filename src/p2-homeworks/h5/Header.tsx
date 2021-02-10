@@ -8,9 +8,9 @@ function Header() {
 
     return (
         <div className={s.navbar}>
-            <NavLink to={PATH.PRE_JUNIOR}>PreJunior</NavLink>
-            <NavLink to={PATH.Junior}>Junior</NavLink>
-            <NavLink to={PATH.JuniorPlus}>Junior+</NavLink>
+            <NavLink to={PATH.PRE_JUNIOR} activeClassName={s.light}>PreJunior</NavLink>
+            <NavLink to={PATH.Junior} activeClassName={s.light}>Junior</NavLink>
+            <NavLink to={PATH.JuniorPlus} activeClassName={s.light}>Junior+</NavLink>
         </div>
     )
 }
