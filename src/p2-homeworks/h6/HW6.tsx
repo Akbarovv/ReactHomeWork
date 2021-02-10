@@ -2,19 +2,26 @@ import React, {useState} from "react";
 import SuperEditableSpan from "./common/c4-SuperEditableSpan/SuperEditableSpan";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import {restoreState, saveState} from "./localStorage/localStorage";
+import s from "../h2/Affairs.module.css"
+
 
 function HW6() {
     const [value, setValue] = useState<string>("");
 
     const save = () => {
         saveState<string>("editable-span-value", value);
+
     };
     const restore = () => {
         // setValue();
+        let a = restoreState("editable-span-value", value)
+        setValue(a)
+
     };
 
+
     return (
-        <div>
+        <div className={s.body}>
             <hr/>
             homeworks 6
 
